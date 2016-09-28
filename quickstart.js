@@ -1,5 +1,4 @@
-// Access Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2RjY2Y0YWYwNDAwYzVmOWY1MGE3OWMxYzM3NjUxYTMxLTE0NzUwODEwNTAiLCJpc3MiOiJTS2RjY2Y0YWYwNDAwYzVmOWY1MGE3OWMxYzM3NjUxYTMxIiwic3ViIjoiQUM4YzAxZWVkMDQwZDBiYWMxNDIwNDk0NjFjYmRmYTVkMCIsImV4cCI6MTQ3NTA4NDY1MCwiZ3JhbnRzIjp7ImlkZW50aXR5IjoicXVpY2tzdGFydCIsInJ0YyI6eyJjb25maWd1cmF0aW9uX3Byb2ZpbGVfc2lkIjoiVlMzYjg4NTdmOWU3MDUyMjIxNWUxMGU0MjNlOGNhNzVhZCJ9fX0.vIlJhZRHPIp-tnDl9IcpK_fm0SHUUtOq-kv6sAA16kk
-
+// Access Token
 
 
 var conversationsClient;
@@ -12,7 +11,7 @@ if (!navigator.webkitGetUserMedia && !navigator.mozGetUserMedia) {
 }
 
 // generate an AccessToken in the Twilio Account Portal - https://www.twilio.com/user/account/video/testing-tools
-var accessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2RjY2Y0YWYwNDAwYzVmOWY1MGE3OWMxYzM3NjUxYTMxLTE0NzUwODEwNTAiLCJpc3MiOiJTS2RjY2Y0YWYwNDAwYzVmOWY1MGE3OWMxYzM3NjUxYTMxIiwic3ViIjoiQUM4YzAxZWVkMDQwZDBiYWMxNDIwNDk0NjFjYmRmYTVkMCIsImV4cCI6MTQ3NTA4NDY1MCwiZ3JhbnRzIjp7ImlkZW50aXR5IjoicXVpY2tzdGFydCIsInJ0YyI6eyJjb25maWd1cmF0aW9uX3Byb2ZpbGVfc2lkIjoiVlMzYjg4NTdmOWU3MDUyMjIxNWUxMGU0MjNlOGNhNzVhZCJ9fX0.vIlJhZRHPIp-tnDl9IcpK_fm0SHUUtOq-kv6sAA16kk";
+var accessToken = "NEED TO INSERT HERE";
 
 // use our AccessToken to generate an AccessManager object
 var accessManager = new Twilio.AccessManager(accessToken);
